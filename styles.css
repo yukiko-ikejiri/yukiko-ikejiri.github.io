@@ -162,6 +162,19 @@ footer {
     height: auto;
 }
 
+.project-description h3, .project-tags h3, .github-link h3 {
+    color: white;
+}
+
+.github-link a {
+    color: #C6D8DF; 
+    text-decoration: none;
+}
+
+.github-link a:hover {
+    text-decoration: underline; 
+}
+
 @media (max-width: 820px) {
     .navbar {
         display: none;
