@@ -162,16 +162,16 @@ footer {
     height: auto;
 }
 
-.project-description h3, .project-tags h3, .github-link h3 {
+.project-description h3, .project-tags h3, .github-link h3, .website-link h3{
     color: white;
 }
 
-.github-link a {
+.github-link a, .website-link a {
     color: #C6D8DF; 
     text-decoration: none;
 }
 
-.github-link a:hover {
+.github-link a, .website-link a:hover {
     text-decoration: underline; 
 }
 
